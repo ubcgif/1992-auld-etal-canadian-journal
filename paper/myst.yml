@@ -1,35 +1,42 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  # id: ubcgif-YEAR-AUTHORS-JOURNAL
-  # title: TITLE OF PAPER
-  # description: SHORT DESCRIPTION HERE
+  id: ubcgif-1992-auld-etal-canadian-journal
+  title: Monitoring temporal change in conductivity in the central Vancouver Island region, an area with past large earthquakes
+  description: Our modelling study indicates a small but systematic yearly  decrease in conductivity from 1987 to 1990 localized in a conductive zone overlying the subducting Juan de Fuca Plate.
   authors:
-    # - name: AUTHOR 1
+    - name: D.R Auld
     #   email: EMAIL
-    #   corresponding: true
+      corresponding: true
     #   orcid: ORCID
-    #   affiliation:
-    #     id: ubc
-    #     name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
-    # - name: Lindsey J. Heagy
-    #   email: lheagy@eoas.ubc.ca
-    #   corresponding: true
-    #   orcid: 0000-0002-1551-5926
-    #   affiliation: ubc
-  # doi: DOI
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    -- name: S.E Dosso
+      # email: EMAIL
+      # orcid: ORCID
+      affiliation: ubc
+    -- name: Douglas W. Oldenburg
+      email: doug@eoas.ubc.ca
+      orcid: 0000-0002-4327-2124
+      affiliation: ubc
+    -- name: LK Law
+      # email: EMAIL
+      # orcid: ORCID
+      affiliation: ubc
+  doi: 10.1139/e92-052
   # arxiv: ARXIV
   # github: GITHUB-URL
-  # date: YYYY/MM/DD # date of publication
+  date: 1992/04/01 # date of publication
   # license: CC-BY-4.0  # uncomment this and the line below if open access
   # open_access: true
   venue:
-    # title: JOURNAL NAME
-    # url: JOURNAL URL
+    title: Canadian Science Publishing
+    url: https://cdnsciencepub.com/doi/10.1139/e92-052
   history:
     # received: YYYY/MM/DD
     # accepted: YYYY/MM/DD
-    # published: YYYY/MM/DD
+    published: 1992/04/01
   keywords:
     # - KEYWORD 1
     # - KEYWORD 2
@@ -45,5 +52,5 @@ site:
   template: article-theme
   actions:
     - title: pdf
-      # url: NAME-OF-PDF.pdf
+      url: Auld_1992.pdf
       static: true
