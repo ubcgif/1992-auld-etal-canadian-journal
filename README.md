@@ -1,6 +1,6 @@
 ## Monitoring temporal change in conductivity in the central Vancouver Island region, an area with past large earthquakes
 
-_D.R. Auld, S.E. Dosso, Douglas Oldenburg & LK Law_
+_D.R. Auld, S.E. Dosso, Douglas W. Oldenburg & LK Law_
 
 [https://doi.org/10.1139/e92-052](https://doi.org/10.1139/e92-052)
 
